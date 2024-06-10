@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Blog</title>
+    <link rel="stylesheet" href="/show-style.css" />
+  </head>
+
+  <body>
+    <div class="blog-container">
+      <div class="blog">
+        <div class="id top">Blog Id: <%= post.id %></div>
+        <div class="user top">User: @<%= post.username %></div>
+        <div class="topic top"><%= post.topic %></div>
+        <div class="content"><%= post.content %></div>
+      </div>
+    </div>
+  </body>
+</html>

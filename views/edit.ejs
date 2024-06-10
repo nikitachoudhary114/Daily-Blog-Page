@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Blog</title>
+    <link rel="stylesheet" href="/new-style.css">
+</head>
+<body>
+    <div class="new-blog-conatainer">
+    
+        <div class="new-blog">
+            <h1>New blog</h1>
+            <h5>Blog Id: <%= post.id %></h5>
+            <H3>User: @<%= post.username %></H3>
+            <h2><%= post.topic %></h2>
+            <!-- <input type="text" name="username" placeholder="<%= post.username %>" class="inp" ><br><br>
+            <input type="text" name="topic" placeholder="Enter Topic" class="inp"><%= post.topic %><br><br> -->
+            <form method="post" action="/posts/<%= post.id %>/?_method=PATCH">
+                <textarea name="content" placeholder="Enter content" rows="20" class="inp"><%= post.content %></textarea><br><br>
+                <button>Submit</button>
+            </form>
+    
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-color: #a2dff3;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+.blog-container{
+    background-color: #89cff0;
+    height: 90%;
+    width: 60%;
+    padding: 50px;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.blog{
+background-color: #f0ffff;
+padding: 20px;
+}
+.id{
+    font-weight: 600;
+}
+.user{
+    font-size: 20px;
+    font-style: italic;
+}
+.topic{
+    font-size: 25px;
+    font-weight: 600;
+}
+.top{
+    margin-bottom: 10px;
+}
