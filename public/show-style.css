@@ -27,6 +27,7 @@ padding: 20px;
 .topic{
     font-size: 25px;
     font-weight: 600;
+    text-decoration: underline #89cff0;
 }
 .top{
     margin-bottom: 10px;
